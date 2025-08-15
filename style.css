@@ -346,6 +346,7 @@
   }
   .slide > img {
     width: 100%;
+    display: block;
   }
   .style99 {
     width: 274px;
@@ -378,6 +379,14 @@
     font-size: 28px;
   }
   .airpro > p {
+    font-size: 18px;
+  }
+  .ipaid > h1 {
+    color: #f5f5f7;
+    font-size: 30px;
+  }
+  .ipaid > p {
+    color: #f5f5f7;
     font-size: 18px;
   }
 }

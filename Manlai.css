@@ -54,6 +54,7 @@
   height: 30px;
   margin-left: 70px;
   font-family: "Inter", sans-serif;
+  font-weight: 700px;
 }
 .flex01 {
   background: linear-gradient(
@@ -115,6 +116,7 @@
   height: 78px;
   align-items: center;
   flex-direction: column;
+  border: none;
 }
 .j > p {
   display: flex;
@@ -144,7 +146,9 @@
   font-family: "Inter", sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  padding: 30px 50px;
+
   gap: 7px;
 }
 .j1-ug > p {
@@ -264,11 +268,16 @@
   height: 14px;
 }
 .j10-ug {
-  flex: 1;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
-  align-items: center;
+  height: 100px;
+  padding: 25px;
+  gap: 15px;
+}
+.price {
+  justify-self: end;
+  width: 250px;
 }
 .j10-ug > p {
   color: #b63c00;
@@ -291,6 +300,7 @@
   position: relative;
   flex-shrink: 0;
   gap: 20px;
+  font-family: "Inter", sans-serif;
 }
 
 .j4 img {
@@ -320,6 +330,7 @@
   height: 240px;
   border-radius: 18px;
   background-color: #f5f5f7;
+  font-family: "Inter", sans-serif;
 }
 .j7-ug h1 {
   display: flex;
@@ -344,7 +355,7 @@
 }
 
 .butt20 {
-  padding: 10px;
+  padding: 5px;
   background-color: transparent;
   border-radius: 40px;
   border-color: black color #1d1d1f;
@@ -362,6 +373,7 @@
   font-size: 18px;
   font-family: "Inter", sans-serif;
   align-items: center;
+  text-align: center;
 }
 .j3-ug {
   display: flex;
@@ -369,6 +381,7 @@
   align-items: start;
   flex-direction: column;
   margin-top: 20px;
+  font-family: "Inter", sans-serif;
 }
 .j3-ug > p {
   font-size: 12px;
@@ -377,4 +390,19 @@
 .j3-ug > h1 {
   font-size: 18px;
   margin-left: 30px;
+}
+.j1-ug > p {
+  color: slategrey;
+}
+.Vector {
+  border: none;
+  padding: 5px 15px;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+.Vector img {
+  width: 8px;
+  height: 8px;
+  margin-top: 3px;
 }
